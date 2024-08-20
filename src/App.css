@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+#root {
+    position: relative;
+    overflow: hidden;
+}
+
+.section1, .section2 {
+    height: 100vh;
+    position: relative;
+}
+
+.section1 {
+    background-color: #EE6C4D;
+}
+
+.section2 {
+    background-color: #6A7FDB;
+}

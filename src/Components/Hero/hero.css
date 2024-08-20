@@ -1,0 +1,13 @@
+.hero-el{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-el > img {
+    max-width: 500px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
