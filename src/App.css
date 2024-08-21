@@ -14,16 +14,3 @@ html,body{
     position: relative;
     overflow: hidden;
 }
-
-.section1, .section2 {
-    height: 100vh;
-    position: relative;
-}
-
-.section1 {
-    background-color: #EE6C4D;
-}
-
-.section2 {
-    background-color: #6A7FDB;
-}

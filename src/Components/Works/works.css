@@ -1,0 +1,9 @@
+.works-el{
+    display: flex;
+}
+
+.project1>img, .project2>img, .project3>img, .project4>img {
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
