@@ -1,9 +1,38 @@
-.works-el{
+.work-text{
     display: flex;
+    flex-direction: column;
 }
+.prj-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+ }
 
-.project1>img, .project2>img, .project3>img, .project4>img {
-    max-width: 400px;
-    object-fit: cover;
-    border-radius: 1rem;
+.project1 {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr); /* 13 equal columns */
+    grid-template-rows: auto; /* Rows will auto-size based on content */
+    gap: 10px; /* Adjust as needed */
+    position: relative; /
+}
+.prj-img {
+    grid-column: 1 / span 12; /* Image spans from column 1 to 12 */
+    grid-row: 1; /* Image stays in the first row */
+    z-index: 1; /* Ensure the image is below the text */
+}
+.txt-header {
+    grid-column: 7 / span 6; /* Text spans from column 7 to 13 */
+    grid-row: 1;
+    z-index: 2; /* Ensure the text is above the image */
+    color: #fff; /* Text color for contrast */
+}
+.txt-desc {
+    align-self: center;
+    grid-column: 7 / span 6; /* Text spans from column 7 to 13 */
+    grid-row: 1;
+    z-index: 3; /* Ensure the text is above the image */
+    background-color: rgba(0, 0, 0, 0.6); /* Optional: background for readability */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
 }
