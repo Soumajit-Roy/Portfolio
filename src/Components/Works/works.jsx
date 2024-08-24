@@ -6,14 +6,14 @@ export default function Works() {
     <div className="works-el">
       <div className="project1">
         <div className="prj-img">
-        <img  src="https://d33wubrfki0l68.cloudfront.net/66be029b8c817a0008cdd2d3/screenshot_2024-08-15-13-29-24-0000.webp"></img>
+        <img className="project-png" src="https://d33wubrfki0l68.cloudfront.net/66be029b8c817a0008cdd2d3/screenshot_2024-08-15-13-29-24-0000.webp"></img>
         </div>
         <div className="txt-header">
-        <h2>Simple Travel Journal</h2>
-        </div>
+        <h3>Featured Project</h3>
+        
         <div className="txt-desc">
+        <h2>Simple Travel Journal</h2>
         <p>Node React HTML CSS JavaScript</p>
-        </div>
         <div className="prj-icons">
         <a
           href="https://github.com/Soumajit-Roy/Simple-Travel-Journal"
@@ -25,6 +25,9 @@ export default function Works() {
           <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
         </a>
         </div>
+        </div>
+        </div>
+        
       </div>
 
       <div className="project2">
