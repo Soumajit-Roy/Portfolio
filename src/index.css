@@ -1,3 +1,7 @@
 :root {
     font-family: 'Chillax', sans-serif;
+    --clr-bg : #1C325E;
+    --clr-fg : #181866;
+    --clr-highlight : #00FFFF;
+    --clr-grey : #96abc6;
 }
