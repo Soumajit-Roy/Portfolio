@@ -47,8 +47,9 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)); /* Example gradient */
+    background: rgba(82, 179, 212, 0.5);
     transition: opacity 0.5s ease;
+    border-radius: 5px;
     box-sizing: border-box; /* Ensure it matches the image's dimensions */
 }
 
