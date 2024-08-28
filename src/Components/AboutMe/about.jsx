@@ -4,7 +4,7 @@ import avatarPhoto from "../../assets/avatar_org.jpg";
 
 export default function About() {
   return (
-    <div className="about-el">
+    <div className="about-el" id="abt-tag">
       <div className="headings">
         <h2>👨🏻‍💻 About Me</h2>
       </div>

@@ -1,5 +1,8 @@
 .nav-wrapper{
     padding: 1.2rem 1.6rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 .nav-el{
     margin: 0;

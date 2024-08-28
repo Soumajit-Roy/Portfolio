@@ -1,0 +1,32 @@
+.list-style-ctc {
+    display: flex;
+    gap: 10px; 
+    align-items: center; 
+}
+.list-style-ctc  li {
+    list-style-type: none; 
+}
+.list-style-ctc {
+    width: 100px;
+    height: 100px;
+}
+.social-icons {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox to align items */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Space between icons */
+}
+
+.social-icons li {
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+}
+
+.contact-el{
+  margin-bottom: 50px;
+}

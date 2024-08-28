@@ -9,8 +9,8 @@ export default function Navbar() {
         <p>Soumajit</p>
       </div>
       <div className="links">
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#abt-tag">About</a>
+        <a href="#ctc-tag">Contact</a>
       </div>
     </div>
     </div>

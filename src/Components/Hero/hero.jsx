@@ -4,7 +4,7 @@ import avatarImg from "../../assets/avatar_no_bg.png"
 
 export default function Hero(){
     return(
-        <div className="hero-el">
+        <div className="hero-el" id="hero-tag">
             <img src={avatarImg}></img>
             <div className="hero-text">
             <p>Hello There! I am</p>
