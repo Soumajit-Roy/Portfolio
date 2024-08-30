@@ -21,6 +21,7 @@ html{
   
   .headings{
     margin: 10px 0px;
+    padding: 0 5vw;
     display: flex;
     flex-direction: row;
     align-self: flex-start;
@@ -36,3 +37,19 @@ html{
     margin-left: 20px;
     background-color: #fbfbfb;
   }
+
+ 
+ @media (max-width: 480px) {
+  .headings{
+    font-size: 0.8rem;
+  }
+  .headings::after{
+    font-family: "Font Awesome 6 Free"; /* Specify the Font Awesome family */
+    font-weight: 900; /* Ensure the icon is rendered in solid style */
+    content: "\f103  \f103  \f103  \f103"; /* Unicode for the fa-angles-down icon */
+    width: auto;
+    top: 5px;
+    background-color: transparent;
+    color: yellow;
+  } 
+ }
