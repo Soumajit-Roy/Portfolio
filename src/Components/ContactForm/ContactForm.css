@@ -1,0 +1,82 @@
+.input-container {
+  position: relative;
+  margin-top: 40px;
+}
+
+.input-label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: var(--clr-grey);
+  font-size: 16px;
+  transition: 0.2s ease all;
+  pointer-events: none;
+}
+
+.input-container.focused .input-label,
+.input-label.active {
+  top: -15px;
+  left: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+input,
+textarea {
+  min-width: 300px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+
+}
+
+input:focus,
+textarea:focus {
+  border-color: #333;
+}
+
+textarea {
+  height: 100px; /* Adjust height for text area */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color:var(--clr-fg);
+  color: var(--clr-highlight);
+  cursor: pointer;
+  margin-top: 20px;
+  max-width: 200px;
+}
+
+button:hover {
+  background-color: var(--clr-highlight);
+  color: var(--clr-fg);
+}
+button:active{
+  transition: 0.2s ease all;
+  position: relative;
+  top: 5px;
+}
+
+.form-el {
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://images.unsplash.com/photo-1531315630201-bb15abeb1653);
+  background-size: cover;
+  border-radius: 5px;
+  max-width: 1000px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
