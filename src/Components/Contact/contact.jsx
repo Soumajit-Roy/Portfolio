@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="contact-el" id="ctc-tag">
       <div className="headings">
-        <h1>📲 Get in touch</h1>
+        <h2>📲 Get in touch</h2>
       </div>
 
       <ul class="social-icons">

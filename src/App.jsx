@@ -11,7 +11,6 @@ import ContactForm from "./Components/ContactForm/ContactForm";
 export default function App() {
   return (
     <div className="container">
-      <div className="content">
       <Navbar />
       <Hero />
       <Works />
@@ -19,6 +18,5 @@ export default function App() {
       <Contact />
       <ContactForm />
       </div>
-    </div>
   );
 }

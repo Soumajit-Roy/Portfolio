@@ -11,15 +11,13 @@ html{
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center; /* Centers the content horizontally */
     background-color: var(--clr-bg);
-    padding: 0 150px; /* 150px padding on the left and right */
     box-sizing: border-box; /* Ensures padding is included in the element's total width */
   }
   
-  .content {
-    width: 100%; /* Ensures the content takes up the full width until max-width is hit */
-  }
+
   
   .headings{
     margin: 10px 0px;

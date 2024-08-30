@@ -1,26 +1,74 @@
-.hero-el{
+.hero-el {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 0 2rem;
+    justify-content: center;
+    padding: 0 5vw; /* Use viewport width for more responsive padding */
     gap: 1rem;
+    box-sizing: border-box;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-el > img {
-    max-width: 500px;
+    max-width: 100%; /* Ensure image does not overflow its container */
+    width: 30%; /* Take up 50% of the container width */
+    height: auto;
 }
-.hero-text{
+
+.hero-text {
     display: flex;
     flex-direction: column;
-    font-size: 1.8rem;
+    font-size: 1.5rem; /* Slightly smaller base font size */
     color: var(--clr-highlight);
+    width: 100%; /* Make text take full width on mobile */
+    max-width: 500px; /* Max width to avoid overflow */
 }
+
 .hero-text > h1 {
     color: white;
 }
+
 .hero-text > h3 {
-    color: var(--clr-grey);  
+    color: var(--clr-grey);
 }
-.hero-text > p{
+
+.hero-text > p {
     font-weight: 500;
+}
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+    .hero-el {
+        flex-direction: column; /* Stack the image and text vertically */
+        padding: 1rem; /* Reduce padding on smaller screens */
+        gap: 1.5rem;
+    }
+
+    .hero-el > img {
+        width: 80%; /* Adjust image width on smaller screens */
+    }
+
+    .hero-text {
+        font-size: 1.2rem; /* Smaller font size */
+        text-align: center; /* Center text */
+    }
+
+    .hero-text > h1 {
+        font-size: 1.8rem; /* Adjust font size */
+    }
+
+    .hero-text > h3 {
+        font-size: 1rem; /* Adjust font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text > h1 {
+        font-size: 1.5rem; /* Further adjust for very small screens */
+    }
+
+    .hero-text > h3 {
+        font-size: 0.9rem; /* Further adjust for very small screens */
+    }
 }
