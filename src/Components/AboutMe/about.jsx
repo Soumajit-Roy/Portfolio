@@ -1,8 +1,15 @@
 import React from "react";
+import { useState } from "react";
 import "./about.css";
 import avatarPhoto from "../../assets/avatar_org.jpg";
 
 export default function About() {
+  const [isCollapsed, setIsCollapsed] = useState(true);
+
+  const toggleCollapse = () => {
+    setIsCollapsed(!isCollapsed);
+  };
+  
   return (
     <div className="about-el" id="abt-tag">
       <div className="headings">
@@ -23,6 +30,15 @@ export default function About() {
         </p>
         </div>
 
+        <button onClick={toggleCollapse} className="toggle-button">
+        {isCollapsed ? 'More About Me' : 'Hide'}
+        </button>
+
+        <div
+        id="yourExistingDiv"
+        className={`collapsible-content ${isCollapsed ? 'collapsed' : ''}`}
+      >
+
         <div className="p2 para-style">
         <p>
           Originally an Electrical Engineering graduate, I transitioned into web
@@ -41,7 +57,29 @@ export default function About() {
         </p>
         </div>
       </div>
+
       
+        <div className="p2 para-style always-visible-content">
+          <p>
+            Originally an Electrical Engineering graduate, I transitioned into
+            web development, where I have honed my skills and built a portfolio
+            of projects that demonstrate my technical abilities and creativity.
+          </p>
+        </div>
+
+        <div className="p3 para-style always-visible-content">
+          <p>
+            I have developed a diverse range of projects, including Chrome
+            extensions and e-commerce websites. I thrive in collaborative
+            environments and am always eager to take on new challenges that push
+            technological boundaries and create impactful solutions.
+          </p>
+        </div>
+      
+
+
+      </div>
+    
       <div className="headings">
         <h2>📚 Familier Technologies</h2>
         </div>

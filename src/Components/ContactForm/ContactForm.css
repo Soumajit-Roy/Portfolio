@@ -44,7 +44,7 @@ textarea {
   resize: vertical; /* Allow vertical resizing */
 }
 
-button {
+.btn-submit {
   padding: 10px 15px;
   font-size: 16px;
   border: none;
@@ -56,11 +56,11 @@ button {
   max-width: 200px;
 }
 
-button:hover {
+.btn-submit:hover {
   background-color: var(--clr-highlight);
   color: var(--clr-fg);
 }
-button:active{
+.btn-submit:active{
   transition: 0.2s ease all;
   position: relative;
   top: 5px;

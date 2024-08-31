@@ -60,7 +60,7 @@ function ContactForm() {
       </div>
 
       {/* Submit Button */}
-      <button type="submit">Submit</button>
+      <button className="btn-submit" type="submit">Submit</button>
     </form>
   );
 }

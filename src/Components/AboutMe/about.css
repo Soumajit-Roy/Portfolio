@@ -13,6 +13,7 @@
     gap: 8px;
     z-index: 1;
     position: relative;
+    padding: 10px 50px;
 }
 .abt-me{
     display: flex;
@@ -93,3 +94,85 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media (max-width: 480px){
+    .avatar-el > img {
+        width: 80%;
+    }
+    .abt-desc {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 25px;
+    }
+    .abt-me{
+        display: none;
+    }
+    .p1{
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+
+/* styles.css */
+
+/* Hide collapsible content by default */
+.collapsible-content {
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    max-height: 0;
+    display: none;
+  }
+  
+  /* Make collapsible content visible only on screens 480px and smaller */
+  @media (max-width: 480px) {
+    .collapsible-content {
+      display: block;
+    }
+  
+    .collapsible-content:not(.collapsed) {
+      max-height: 500px; /* Adjust this based on your content */
+    }
+  
+    .toggle-button {
+      display: inline-block;
+    }
+  
+    .always-visible-content {
+      display: none; /* Hide the content that is always visible on larger screens */
+    }
+  }
+  
+  /* Hide the collapsible content and show the original content on larger screens */
+  @media (min-width: 481px) {
+    .collapsible-content {
+      display: none;
+    }
+  
+    .toggle-button {
+      display: none;
+    }
+  
+    .always-visible-content {
+      display: block;
+    }
+  }
+  
+  /* Style the button */
+  .toggle-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--clr-fg);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+  }
+  .toggle-button:hover{
+    background-color: var(--clr-highlight);
+    color: var(--clr-fg);
+  }
+  
+  
