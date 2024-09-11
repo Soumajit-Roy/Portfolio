@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.css"
-import avatarImg from "../../assets/avatar_no_bg.png"
+import avatarImg from "../../assets/avatar_no_bg.webp"
 
 export default function Hero(){
     return(

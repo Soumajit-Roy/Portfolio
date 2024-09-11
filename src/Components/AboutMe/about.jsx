@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./about.css";
-import avatarPhoto from "../../assets/avatar_org.jpg";
+import avatarPhoto from "../../assets/avatar_org.webp";
 
 export default function About() {
   const [isCollapsed, setIsCollapsed] = useState(true);
