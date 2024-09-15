@@ -7,7 +7,38 @@ export default function Works() {
       <div className="headings">
         <h2>🏷️ Some Things I’ve Built</h2>
       </div>
+
       <div className="project1">
+        <div className="prj-img">
+          <img
+            className="project-png"
+            src="https://d33wubrfki0l68.cloudfront.net/66e5bbe5a3e53a84b484dfaa/screenshot_2024-09-14-16-37-59-0000.webp"
+          ></img>
+        </div>
+        <div className="txt-header">
+          <h3>Featured Project</h3>
+
+          <div className="txt-desc">
+            <h2>Photography Portfolio</h2>
+            <p>Vite MaterialUI SwiperJS LightGalleryJS Netlify</p>
+            <div className="prj-icons">
+              <a
+                href="https://github.com/Soumajit-Roy/Photography-Portfolio"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github fa-lg"></i>
+              </a>
+              <a
+                href="https://photography-portfolio-sr.netlify.app/"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="project2">
         <div className="prj-img">
           <img
             className="project-png"
@@ -38,7 +69,7 @@ export default function Works() {
         </div>
       </div>
 
-      <div className="project2">
+      <div className="project3">
         <div className="prj-img">
           <img
             className="project-png"
@@ -68,7 +99,7 @@ export default function Works() {
         </div>
       </div>
 
-      <div className="project3">
+      <div className="project4">
         <div className="prj-img">
           <img
             className="project-png"
@@ -99,36 +130,7 @@ export default function Works() {
         </div>
       </div>
 
-      <div className="project4">
-        <div className="prj-img">
-          <img
-            className="project-png"
-            src="https://d33wubrfki0l68.cloudfront.net/66a1144c7bfc2c000870b428/screenshot_2024-07-24-14-49-08-0000.webp"
-          ></img>
-        </div>
-        <div className="txt-header">
-          <h3>Featured Project</h3>
-
-          <div className="txt-desc">
-            <h2>Simple Password Generator</h2>
-            <p>HTML CSS Javascript</p>
-            <div className="prj-icons">
-              <a
-                href="https://github.com/Soumajit-Roy/Simple-Password-Generator-JS"
-                target="_blank"
-              >
-                <i class="fa-brands fa-github fa-lg"></i>
-              </a>
-              <a
-                href="https://simple-password-gens.netlify.app/"
-                target="_blank"
-              >
-                <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 }
