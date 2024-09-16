@@ -5,22 +5,38 @@
   z-index: 10;
   box-sizing: border-box;
 }
+.bg-img {
+  position: absolute; /* Change to absolute to position it relative to the parent container */
+  top: 0; /* Start from the top */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  z-index: 1; /* Ensure it's behind the navbar */
+  overflow: hidden; /* Prevent overflow */
+}
+
 .nav-el {
   margin: 0;
   padding: 1rem 1.5rem;
   flex-direction: row;
-  background-color: #757effbf;
-  border-radius: 8rem;
   font-size: 1.2rem;
   font-weight: 500;
-  backdrop-filter: blur(15px);
+  
   width: 100%;
   box-sizing: border-box;
+  backdrop-filter: blur(4px) ;
+  -webkit-backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 8rem;
+  border: 1px solid rgba(209, 213, 219, 0.3);
 }
 .links > a {
   margin-left: 2rem;
   text-decoration: none;
   color: black;
+}
+
+.links > a:hover{
+  color: white;
 }
 /* Nav.css */
 
@@ -73,12 +89,18 @@
       display: none; /* Hide the links by default on small screens */
       flex-direction: column;
       gap: 0.5rem;
-      background-color: #757effbf; /* Optional: Background color for the dropdown */
+      background-color:rgba(255, 255, 255, 0.75); /* Optional: Background color for the dropdown */
+      border: 1px solid rgba(209, 213, 219, 0.3);
+      backdrop-filter: blur(4px) ;
+      -webkit-backdrop-filter: blur(4px);
       position: absolute;
       top: 60px; /* Adjust as per your layout */
       right: 10px; /* Adjust as per your layout */
       padding: 1rem;
       border-radius: 8px;
+    }
+    .links > a{
+      margin-left: 0;
     }
   
     .hamburger {
@@ -88,5 +110,43 @@
     .links.active {
       display: flex; /* Show the links when the menu is toggled */
     }
+
+    .scale-in-ver-top {
+      -webkit-animation: scale-in-ver-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: scale-in-ver-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+  
+  @-webkit-keyframes scale-in-ver-top {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-ver-top {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+      opacity: 1;
+    }
+  }
   }
   

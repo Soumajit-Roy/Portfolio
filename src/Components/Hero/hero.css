@@ -8,6 +8,7 @@
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
     margin-left: auto;
     margin-right: auto;
+    z-index: 4;
 }
 
 .hero-el > img {

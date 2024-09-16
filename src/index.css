@@ -1,7 +1,11 @@
 :root {
     font-family: 'Chillax', sans-serif;
-    --clr-bg : #1C325E;
+    --clr-bg : #25283d;
     --clr-fg : #181866;
     --clr-highlight : #00FFFF;
     --clr-grey : #96abc6;
+}
+
+html{
+    cursor: url("https://img.icons8.com/?size=40&id=43151&format=png&color=000000"), auto
 }
