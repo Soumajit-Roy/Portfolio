@@ -15,6 +15,7 @@
     max-width: 100%; /* Ensure image does not overflow its container */
     width: 30%; /* Take up 50% of the container width */
     height: auto;
+    filter: drop-shadow(5px 5px 5px #000000);
 }
 
 .hero-text {

@@ -12,6 +12,7 @@
   width: 100%; /* Full width */
   z-index: 1; /* Ensure it's behind the navbar */
   overflow: hidden; /* Prevent overflow */
+  filter: drop-shadow(-5px 5px 5px #000000);
 }
 
 .nav-el {
