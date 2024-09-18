@@ -4,25 +4,22 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 
 ## Table of Contents
 
-- [Demo](#demo)
-
-- [Features](#features)
-
-- [Technologies Used](#technologies-used)
-
-- [Installation](#installation)
-
-- [Usage](#usage)
-
-- [Deployment](#deployment)
-
-- [License](#license)
-
-- [Contact](#contact)
+- [My Portfolio](#my-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Demo](#demo)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Deployment](#deployment)
+  - [License](#license)
+  - [Contact](#contact)
 
 ## Demo
 
 You can view the live site here: [My Portfolio](https://itssoumajit.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/63d95420-5a77-4be6-9b5e-23db3f8c7362/deploy-status)](https://app.netlify.com/sites/itssoumajit/deploys)
 
 ## Features
 
