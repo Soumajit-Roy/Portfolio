@@ -38,6 +38,38 @@ export default function Works() {
           </div>
         </div>
       </div>
+
+      <div className="project4">
+        <div className="prj-img">
+          <img
+            className="project-png"
+            src="https://d33wubrfki0l68.cloudfront.net/66ec48bf185f470ed720c382/screenshot_2024-09-19-15-53-06-0000.webp"
+          ></img>
+        </div>
+        <div className="txt-header">
+          <h3>Featured Project</h3>
+
+          <div className="txt-desc">
+            <h2>Basic Meme Generator</h2>
+            <p>Node React Vite JavaScript</p>
+            <div className="prj-icons">
+              <a
+                href="https://github.com/Soumajit-Roy/Basic-Meme-Generator"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github fa-lg"></i>
+              </a>
+              <a
+                href="https://basic-meme-gen.netlify.app/"
+                target="_blank"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="project2">
         <div className="prj-img">
           <img
@@ -99,36 +131,7 @@ export default function Works() {
         </div>
       </div>
 
-      <div className="project4">
-        <div className="prj-img">
-          <img
-            className="project-png"
-            src="https://d33wubrfki0l68.cloudfront.net/66b5bb1311461b125f8f6454/screenshot_2024-08-09-06-46-06-0000.webp"
-          ></img>
-        </div>
-        <div className="txt-header">
-          <h3>Featured Project</h3>
-
-          <div className="txt-desc">
-            <h2>Business Banner Card</h2>
-            <p>Node React HTML CSS JavaScript</p>
-            <div className="prj-icons">
-              <a
-                href="https://github.com/Soumajit-Roy/business-banner-card"
-                target="_blank"
-              >
-                <i class="fa-brands fa-github fa-lg"></i>
-              </a>
-              <a
-                href="https://business-banner-card.netlify.app/"
-                target="_blank"
-              >
-                <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       
     </div>
