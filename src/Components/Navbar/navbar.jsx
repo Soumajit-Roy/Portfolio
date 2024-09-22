@@ -1,12 +1,35 @@
 import React from "react";
 import "./navbar.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const [isLightTheme, setIsLightTheme] = useState(false);
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+      setIsLightTheme(true);
+      document.body.classList.add('light-theme');
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    if (isLightTheme) {
+      // Switch to dark theme
+      document.body.classList.remove('light-theme');
+      localStorage.setItem('theme', 'dark');
+    } else {
+      // Switch to light theme
+      document.body.classList.add('light-theme');
+      localStorage.setItem('theme', 'light');
+    }
+    setIsLightTheme(!isLightTheme);
   };
 
   return (
@@ -33,10 +56,23 @@ export default function Navbar() {
             <div className="bar2"></div>
             <div className="bar3"></div>
           </div>
-          <div className={`links ${isMenuOpen ? "active scale-in-ver-top" : ""}`}>
+          <div
+            className={`links ${isMenuOpen ? "active scale-in-ver-top" : ""}`}
+          >
             <a href="#abt-tag">About</a>
             <a href="#ctc-tag">Contact</a>
+
+            <label class="switch">
+            <input type="checkbox" 
+                  checked={isLightTheme}
+                  onChange={toggleTheme}/>
+            <span class="slider"></span>
+          </label>
+
           </div>
+
+          
+
         </div>
       </div>
     </>

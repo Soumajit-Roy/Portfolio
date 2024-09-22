@@ -4,15 +4,43 @@
     --clr-fg : #181866;
     --clr-highlight : #00FFFF;
     --clr-grey : #96abc6;
+
+    --clr-nav : rgba(17, 25, 40, 0.75);
+    --clr-nav-b : rgba(255, 255, 255, 0.125);
+    --clr-nav-link : #00cba9;
+    --clr-nav-link-hvr : #ffffff;
+
+    --clr-sub-head : #ffffff;
+
+    --clr-ctc-style-a : #212437;
+    --clr-ctc-style-b : #282b41;
+    --clr-ctc-style-c : #1f2234;
+    --clr-ctc-style-d : #2b2e46;
+
+    --clr-head-emoji : #ffff00;
 }
 
 html{
     cursor: url("https://img.icons8.com/?size=40&id=43151&format=png&color=000000"), auto
 }
 
-.light-mode{
-    --clr-bg : #F5F7FA;
+.light-theme{
+    --clr-bg : #e6f0ff;
     --clr-fg : #2ECC71;
     --clr-highlight : #7639bb;
     --clr-grey : #333333;
+
+    --clr-nav : rgba(255, 255, 255, 0.75);
+    --clr-nav-b : rgba(209, 213, 219, 0.3); 
+    --clr-nav-link : #000000;
+    --clr-nav-link-hvr : #7639bb;
+
+    --clr-sub-head : #333333;
+
+    --clr-ctc-style-a : #cfd8e6;
+    --clr-ctc-style-b : #f6ffff;
+    --clr-ctc-style-c : #c4ccd9;
+    --clr-ctc-style-d : #ffffff;
+
+    --clr-head-emoji : #333333;
 }

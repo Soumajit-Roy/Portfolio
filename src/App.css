@@ -35,7 +35,7 @@ html{
     width: 300px;
     height: 1px;
     margin-left: 20px;
-    background-color: #fbfbfb;
+    background-color: var(--clr-nav-link-hvr);
   }
 
  
@@ -48,9 +48,9 @@ html{
     font-weight: 900; /* Ensure the icon is rendered in solid style */
     content: "\f103  \f103  \f103  \f103"; /* Unicode for the fa-angles-down icon */
     width: auto;
-    top: 5px;
+    top: 8px;
     background-color: transparent;
-    color: yellow;
+    color: var(--clr-head-emoji);
   } 
  }
 

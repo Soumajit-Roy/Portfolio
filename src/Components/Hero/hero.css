@@ -28,7 +28,7 @@
 }
 
 .hero-text > h1 {
-    color: white;
+    color: var(--clr-nav-link-hvr);
 }
 
 .hero-text > h3 {

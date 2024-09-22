@@ -45,7 +45,7 @@
     }
 }
 .p1 {
-    color: white;
+    color: var(--clr-grey);
     font-size: 2rem;
     font-kerning: none;
     grid-column: span 3 / span 3;
@@ -85,7 +85,7 @@
 }
 
 .sub-head{
-    color: white;
+    color: var(--clr-sub-head);
     padding: 10px 0px;
 }
 

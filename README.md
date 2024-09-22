@@ -33,6 +33,8 @@ You can view the live site here: [My Portfolio](https://itssoumajit.netlify.app/
 
 - Integration of Fontawesome icons and custom fonts.
 
+- Dark Mode , Light Mode available on Switch. Can Save Your preferences.
+
 ## Technologies Used
 
 - **Vite**: Fast development build tool optimized for React.
