@@ -10,12 +10,25 @@
     width: 100px;
     height: 100px;
 }
+
+.icons-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
 .social-icons {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove default padding */
-  display: flex; /* Use flexbox to align items */
-  justify-content: center; /* Center items horizontally */
-  gap: 20px; /* Space between icons */
+  list-style-type: none; 
+  padding: 0; 
+  display: inline-flex; 
+  justify-content: center; 
+  gap: 20px; 
+
+  padding: 15px 20px 10px;
+
+  border-radius: 15px;
+background: linear-gradient(145deg, #212437, #282b41);
+box-shadow:  10px 10px 20px #1f2234,
+             -10px -10px 20px #2b2e46;
 }
 
 .social-icons li {

@@ -26,14 +26,19 @@
   box-sizing: border-box;
   backdrop-filter: blur(4px) ;
   -webkit-backdrop-filter: blur(4px);
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(17, 25, 40, 0.75);
   border-radius: 8rem;
-  border: 1px solid rgba(209, 213, 219, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+
 }
 .links > a {
   margin-left: 2rem;
   text-decoration: none;
-  color: black;
+  color:#00cba9;
+}
+
+.name{
+  color: #00cba9;
 }
 
 .links > a:hover{
@@ -66,7 +71,7 @@
   .bar1, .bar2, .bar3 {
     width: 100%;
     height: 4px;
-    background-color: #333;
+    background-color: #00cba9;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
   }
@@ -90,8 +95,8 @@
       display: none; /* Hide the links by default on small screens */
       flex-direction: column;
       gap: 0.5rem;
-      background-color:rgba(255, 255, 255, 0.75); /* Optional: Background color for the dropdown */
-      border: 1px solid rgba(209, 213, 219, 0.3);
+      background-color:rgba(17, 25, 40, 0.75);; /* Optional: Background color for the dropdown */
+      border: 1px solid rgba(255, 255, 255, 0.125);
       backdrop-filter: blur(4px) ;
       -webkit-backdrop-filter: blur(4px);
       position: absolute;
@@ -150,4 +155,5 @@
     }
   }
   }
+  
   

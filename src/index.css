@@ -9,3 +9,10 @@
 html{
     cursor: url("https://img.icons8.com/?size=40&id=43151&format=png&color=000000"), auto
 }
+
+.light-mode{
+    --clr-bg : #F5F7FA;
+    --clr-fg : #2ECC71;
+    --clr-highlight : #7639bb;
+    --clr-grey : #333333;
+}

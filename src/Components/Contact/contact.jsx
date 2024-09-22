@@ -8,6 +8,7 @@ export default function Contact() {
         <h2>📲 Get in touch</h2>
       </div>
 
+      <div className="icons-wrapper">
       <ul class="social-icons">
   <li>
     <a
@@ -16,7 +17,7 @@ export default function Contact() {
       target="_blank"
     >
       <img
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
+        src="https://img.icons8.com/?size=100&id=MR3dZdlA53te&format=png&color=000000"
         alt="LinkedIn"
       />
     </a>
@@ -28,7 +29,7 @@ export default function Contact() {
       target="_blank"
     >
       <img
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+        src="https://img.icons8.com/?size=100&id=LoL4bFzqmAa0&format=png&color=000000"
         alt="Github"
       />
     </a>
@@ -40,7 +41,7 @@ export default function Contact() {
       target="_blank"
     >
       <img
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/codepen/codepen-original.svg"
+        src="https://img.icons8.com/?size=100&id=38375&format=png&color=000000"
         alt="CodePen"
       />
     </a>
@@ -48,12 +49,13 @@ export default function Contact() {
   <li>
     <a className="hvr-pulse-grow" href="mailto:itssoumajit@gmail.com">
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/768px-Gmail_icon_%282020%29.svg.png?20221017173631"
+        src="https://img.icons8.com/?size=100&id=eFPBXQop6V2m&format=png&color=000000"
         alt="Gmail"
       />
     </a>
   </li>
 </ul>
+</div>
 
     </div>
   );
