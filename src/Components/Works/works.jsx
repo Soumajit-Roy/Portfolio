@@ -74,24 +74,24 @@ export default function Works() {
         <div className="prj-img">
           <img
             className="project-png"
-            src="https://d33wubrfki0l68.cloudfront.net/66be029b8c817a0008cdd2d3/screenshot_2024-08-15-13-29-24-0000.webp"
+            src="https://d33wubrfki0l68.cloudfront.net/67168261b4ba1b0008c7d386/screenshot_2024-10-21-16-34-21-0000.webp"
           ></img>
         </div>
         <div className="txt-header">
           <h3>Featured Project</h3>
 
           <div className="txt-desc">
-            <h2>Simple Travel Journal</h2>
-            <p>Node React HTML CSS JavaScript</p>
+            <h2>Pomodoro Chrome Extension</h2>
+            <p>Node React HTML CSS JavaScript Material UI</p>
             <div className="prj-icons">
               <a
-                href="https://github.com/Soumajit-Roy/Simple-Travel-Journal"
+                href="https://github.com/Soumajit-Roy/Pomodoro-Chrome-Extension"
                 target="_blank"
               >
                 <i class="fa-brands fa-github fa-lg"></i>
               </a>
               <a
-                href="https://travel-log-responsive.netlify.app/"
+                href="https://pomodoro-tool.netlify.app/"
                 target="_blank"
               >
                 <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
