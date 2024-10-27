@@ -79,7 +79,7 @@ export default function About() {
         </div>
       </div>
       <div className="btn-wrapper">
-        <button className="resume-btn" onClick={() => openInNewTab('https://drive.google.com/file/d/1Swr0QiBAnRGZLjMFY8XWaUEae9lv1EoB/view?usp=sharing')}>
+        <button className="resume-btn" onClick={() => openInNewTab('https://drive.google.com/file/d/1p5cLKtSkmpUXWkYS4m0xTw3rIQ-3JP0P/view?usp=sharing')}>
           <svg
             className="icon"
             fill="#ffffff"
